@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Working "Calculator"</h1>
+<hr>
+<p id="ad"></p>
+<p id="su"></p>
+<p id="mu"></p>
+<p id="di"></p>
+<button onclick="sigmaboy(1)"></button>
+<script>
+    function sigmaboy() {
+       x = 9
+       y = 10
+       f = 5
+       g = 9
+       w = 50
+       e = 10
+       j = 3
+       h = 9
+       add = x + y
+       sub = g - f
+       mul = e * w
+       div = j / h
+       document.getElementById("ad").innerHTML = "The added value is " + add;
+       document.getElementById("su").innerHTML = "The subtracted value is " + sub;
+       document.getElementById("mu").innerHTML = "The multiplied value is " + mul;
+       document.getElementById("di").innerHTML = "The divided value is " + div; 
+    }
+   
+</script>
+</body>
+</html>
